@@ -1,0 +1,46 @@
+{
+	"schemaVersion": 1,
+	"id": "minecart-max-speed",
+	"version": "${version}",
+	"name": "${name}",
+	"description": "Add max_speed, the attribute version of minecartMaxSpeed gamerule, to the entire minecart entities.",
+	"authors": [
+		{
+			"name": "NoEul",
+			"contact": {
+				"email": "me@NoEul.dev",
+				"homepage": "https://NoEul.dev",
+				"sources": "https://github.com/No-Eul"
+			}
+		}
+	],
+	"contact": {
+		"email": "me@NoEul.dev",
+		"homepage": "https://modrinth.com/mod/minecart-max-speed",
+		"issues": "https://github.com/No-Eul/MinecartMaxSpeedAttribute/issues",
+		"sources": "https://github.com/No-Eul/MinecartMaxSpeedAttribute"
+	},
+	"contributors": [],
+	"license": "MIT",
+	"icon": "assets/minecart-max-speed/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.noeul.fabricmod.minecartmaxspeed.MinecartMaxSpeedAttribute"]
+	},
+	"mixins": [
+		"minecart-max-speed.mixins.json"
+	],
+	"accessWidener": "minecart-max-speed.accesswidener",
+	"depends": {
+		"minecraft": ">=1.21-alpha.24.33.a",
+		"fabricloader": ">=${loader_version}"
+	},
+	"recommends": {
+		"modmenu": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"update_checker": true
+		}
+	}
+}
