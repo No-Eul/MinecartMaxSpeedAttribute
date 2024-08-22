@@ -3,7 +3,7 @@
 	"id": "minecart-max-speed",
 	"version": "${version}",
 	"name": "${name}",
-	"description": "Add max_speed, the attribute version of minecartMaxSpeed gamerule, to the entire minecart entities.",
+	"description": "Add max_speed, the attribute version of minecartMaxSpeed gamerule, to entire minecart typed entities.",
 	"authors": [
 		{
 			"name": "NoEul",
